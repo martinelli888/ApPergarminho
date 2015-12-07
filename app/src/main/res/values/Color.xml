@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--/cores-->
+    <color name="linen">#eae2d6</color>
+    <color name="oyster">#d5c3aa</color>
+    <color name="mostarda">#e1b80d</color>
+    <color name="pewter">#aa4b41</color>
+    <color name="canada">#2a3132</color>
+    <color name="strawberry">#d8412f</color>
+    <color name="papaya">#Fe7a47</color>
+    <color name="Bco">#fcfdfe</color>
+    <color name="cor_botao">@color/Bco</color>
+    <color name="texto_simples">@color/pewter</color>
+    <color name="texto_bruto">@color/hungria</color>
+
+    <color name="nclick">@color/canada</color>
+    <color name="clicado">@color/pewter</color>
+    <!--<color name="canada">#34675c</color>-->
+    <!--<color name="strawberry">#20948b</color>-->
+
+    <!--/cores menu-->
+    <color name="primary">#e1b890</color>
+    <color name="primary_dark">#e1b80d</color>
+    <color name="hungria">#867666</color>
+    <color name="primary2">#F44336</color>
+
+
+
+     <!-- aqui tem uma segudna opcao-->
+    <color name="primary_dark2">#D32F2F</color>
+    <color name="primary_light2">#FFCDD2</color>
+    <color name="accent2">#FF5722</color>
+    <color name="primary_text2">#212121</color>
+    <color name="secondary_text2">#727272</color>
+    <color name="icons2">#FFFFFF</color>
+    <color name="divider2">#B6B6B6</color>
+
+</resources>

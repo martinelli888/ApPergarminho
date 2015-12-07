@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="botao_reto">
+            <item name="android:background">@drawable/botaoarred</item>
+            <item name="android:textColor">@color/Bco</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">48dp</item>
+            <item name="android:textSize">12sp</item>
+            <item name="android:textAlignment">gravity</item>
+         </style>
+
+    <style name="botaoCampo">
+        <item name="android:background">@drawable/botao_esquerdo</item>
+        <item name="android:state_pressed">@drawable/botao_pressionado</item>
+        <!--<item android:state_pressed="true" android:drawable="@drawable/botaoselecionado" />-->
+        <!--<item android:state_focused="true" android:drawable="@drawable/botaofoco" />-->
+        <!--<item android:drawable="@drawable/botaonormal"/>-->
+        <item name="android:textColor">@color/pewter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+
+    <style name="botaoBonus">
+        <item name="android:background">@drawable/botao_branco</item>
+        <item name="android:state_pressed">@drawable/botao_esquerdo</item>
+        <item name="android:textColor">@color/pewter</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="botao_r1">
+        <item name="android:background">@drawable/rosto1</item>
+        <item name="android:textColor">@color/pewter</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="botao_rm">
+        <item name="android:background">@drawable/rosto_meio</item>
+        <item name="android:textColor">@color/pewter</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="botao_r2">
+        <item name="android:background">@drawable/rosto2</item>
+        <item name="android:textColor">@color/pewter</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    </resources>

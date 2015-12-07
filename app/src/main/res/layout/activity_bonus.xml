@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.pergaminhos.appergarminho.Mecanismo">
+
+
+
+<TextView
+    android:id="@+id/tituloBonus"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="4dp"
+    android:text="@string/tituloBonus"
+    android:textColor="@color/pewter"
+    android:textSize="@dimen/altTextTitulo"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/aMenos"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="@dimen/tam_aumenta_diminui"
+    android:layout_height="@dimen/tam_aumenta_diminui"
+    android:layout_alignParentEnd="true"
+    android:layout_marginEnd="0dp"
+    android:layout_marginTop="0dp"
+    android:padding="@dimen/tam_bordaInt_aumenta_diminui"
+    android:text="@string/diminui"
+    android:textColor="@color/hungria"/>
+
+<Button
+    android:id="@+id/aMais"
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="@dimen/tam_aumenta_diminui"
+    android:layout_height="@dimen/tam_aumenta_diminui"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="end"
+    android:layout_toStartOf="@+id/aMenos"
+    android:padding="@dimen/tam_bordaInt_aumenta_diminui"
+    android:text="@string/aumenta"
+    android:textColor="@color/hungria" />
+
+<Button
+    android:id="@+id/button12"
+    style="@style/botaoCampo"
+    android:layout_width="@dimen/tam_botao_lado"
+    android:layout_height="@dimen/tam_botao_altura"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="5dp"
+    android:text="@string/botaoP11"
+    android:textSize="@dimen/altTextButton" />
+
+<ScrollView
+    android:id="@+id/roll01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/button12"
+    android:layout_below="@id/aMais"
+    android:layout_marginTop="0dp">
+
+    <TextView
+        android:id="@+id/textoBonus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin2"
+        android:paddingTop="7dp"
+        android:text="@string/textoBonus"
+        android:textColor="@color/texto_bruto"
+        android:textSize="@dimen/tamanhotexto"/>
+</ScrollView>
+
+
+</RelativeLayout>

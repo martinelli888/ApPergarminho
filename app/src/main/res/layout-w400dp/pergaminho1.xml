@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Pt1" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <Button
+        android:id="@+id/Amenos"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/tam_aumenta_diminui"
+        android:layout_height="@dimen/tam_aumenta_diminui"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/tam_bordaInt_aumenta_diminui"
+        android:text="@string/diminui" />
+
+    <Button
+        android:id="@+id/Amais"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/tam_aumenta_diminui"
+        android:layout_height="@dimen/tam_aumenta_diminui"
+        android:layout_gravity="right"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/tam_bordaInt_aumenta_diminui"
+        android:text="@string/aumenta"/>
+
+    <ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Amais">
+
+    <TextView
+            android:id="@+id/textoChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin2"
+            android:layout_marginRight="@dimen/activity_horizontal_margin2"
+            android:paddingTop="7dp"
+            android:text="@string/pt1"
+            android:textColor="@color/texto_simples"
+            android:textSize="14dp"
+        />
+    </ScrollView>
+</RelativeLayout>

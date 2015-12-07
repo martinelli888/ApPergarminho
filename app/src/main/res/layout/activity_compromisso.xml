@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pergaminhos.appergarminho.compromisso">
+
+    <TextView
+    android:id="@+id/texto1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_vertical"
+    android:paddingTop="7dp"
+    android:text="Compromisso"
+    android:textColor="@color/texto_simples"
+    android:textColorHint="@color/mostarda"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/convite1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/convite1"
+        android:textColor="@color/hungria"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/eu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/convite1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/eu"
+        android:textColor="@color/pewter"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        />
+    <EditText
+        android:id="@+id/Nome"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="@id/eu"
+        android:layout_below="@id/convite1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_toEndOf="@id/eu"
+        android:background="@drawable/caixadecoleta"
+        android:inputType="text"
+        android:text=" Seu Nome"
+        android:textAlignment="gravity"
+        android:textColor="@color/canada"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/compromisso1"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignBaseline="@+id/Nome"
+        android:layout_below="@+id/convite1"
+        android:layout_toEndOf="@+id/Nome"
+        android:text="@string/compromisso1"
+        android:textColor="@color/pewter"
+        android:textSize="14sp"
+      />
+
+    <TextView
+        android:id="@+id/compromisso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:text="@string/compromisso2"
+        android:textAlignment="center"
+        android:textColor="@color/pewter"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/buttonAceitar"
+        style="@style/botaoCampo"
+        android:layout_width="@dimen/tam_botao_lado"
+        android:layout_height="@dimen/tam_botao_altura"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Aceitar"
+        android:textSize="@dimen/altTextButton" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>CreateUsuarioMigration.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(128,128,128); font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+CreateUsuarioMigration.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">package </span><span class="s1">com.pergaminhos.appergarminho.Migration; 
+ 
+</span><span class="s0">import </span><span class="s1">android.database.sqlite.SQLiteDatabase; 
+ 
+</span><span class="s0">import </span><span class="s1">se.emilsjolander.sprinkles.Migration; 
+ 
+</span><span class="s0">public class </span><span class="s1">CreateUsuarioMigration </span><span class="s0">extends </span><span class="s1">Migration { 
+ 
+    @Override 
+    </span><span class="s0">protected void </span><span class="s1">doMigration(SQLiteDatabase db) { 
+        db.execSQL(</span><span class="s2">&quot;CREATE TABLE Gaivotas (&quot; </span><span class="s1">+ 
+                </span><span class="s2">&quot;id INTEGER PRIMARY KEY AUTOINCREMENT, &quot; </span><span class="s1">+ 
+                </span><span class="s2">&quot;nome TEXT, &quot; </span><span class="s1">+ 
+                </span><span class="s2">&quot;pergaminho TEXT, &quot; </span><span class="s1">+ 
+                </span><span class="s2">&quot;data TEXT, &quot; </span><span class="s1">+ 
+                </span><span class="s2">&quot;inicio TEXT)&quot;</span><span class="s1">); 
+    } 
+} 
+</span><span class="s3">//    @Override</span><span class="s1"> 
+</span><span class="s3">//    protected void doMigration(SQLiteDatabase db) {</span><span class="s1"> 
+</span><span class="s3">//        db.execSQL(&quot;CREATE TABLE Gaivota (&quot; +</span><span class="s1"> 
+</span><span class="s3">//                &quot;id INTEGER PRIMARY KEY AUTOINCREMENT, &quot; +</span><span class="s1"> 
+</span><span class="s3">//                &quot;nome TEXT, &quot; +</span><span class="s1"> 
+</span><span class="s3">//                &quot;pergaminho DOUBLE, &quot; +</span><span class="s1"> 
+</span><span class="s3">//                &quot;data DOUBLE, &quot; +</span><span class="s1"> 
+</span><span class="s3">//                &quot;inicio DATE)&quot;);</span><span class="s1"> 
+</span><span class="s3">//    }</span><span class="s1"> 
+</span><span class="s3">//}</span></pre>
+</body>
+</html>
