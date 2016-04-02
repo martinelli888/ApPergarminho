@@ -8,8 +8,6 @@ android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="com.pergaminhos.appergarminho.Mecanismo">
 
-
-
     <TextView
         android:id="@+id/tituloChange"
         android:layout_width="wrap_content"
@@ -78,8 +76,6 @@ tools:context="com.pergaminhos.appergarminho.Mecanismo">
         android:textColor="@color/texto_bruto"
         android:textSize="@dimen/tamanhotexto"/>
     </ScrollView>
-
-
 </RelativeLayout>
 
 

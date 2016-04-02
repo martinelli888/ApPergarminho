@@ -1,7 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.pergaminhos.appergarminho.MainActivity">
-    <item android:id="@+id/action_settings" android:orderInCategory="100"
-        android:title="@string/action_settings" app:showAsAction="never" />
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/id_do_menu_main"
+        android:orderInCategory="100"
+        android:title="Putalamerda"
+        app:showAsAction="never" />
 </menu>

@@ -1,7 +1,34 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".Principal">
-    <item android:id="@+id/action_settings" android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never"/>
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pergaminhos.appergarminho.Mecanismo">
+    <item
+        android:id="@+id/mMenu"
+        android:orderInCategory="100"
+        android:title="@string/mMenu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mConfig"
+        android:orderInCategory="101"
+        android:title="@string/mConfig"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mSobre"
+        android:orderInCategory="102"
+        android:title="@string/mSobre"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mAvaliar"
+        android:orderInCategory="103"
+        android:title="@string/mAvaliar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mSair"
+        android:orderInCategory="104"
+        android:title="@string/mSair"
+        app:showAsAction="never" />
 </menu>

@@ -9,7 +9,6 @@ android:paddingTop="@dimen/activity_vertical_margin"
 tools:context="com.pergaminhos.appergarminho.Mecanismo">
 
 
-
 <TextView
     android:id="@+id/tituloBonus"
     android:layout_width="wrap_content"
@@ -23,7 +22,7 @@ tools:context="com.pergaminhos.appergarminho.Mecanismo">
     android:textStyle="bold" />
 
 <Button
-    android:id="@+id/aMenos"
+    android:id="@+id/aMenos1"
     style="?android:attr/buttonStyleSmall"
     android:layout_width="@dimen/tam_aumenta_diminui"
     android:layout_height="@dimen/tam_aumenta_diminui"
@@ -35,7 +34,7 @@ tools:context="com.pergaminhos.appergarminho.Mecanismo">
     android:textColor="@color/hungria"/>
 
 <Button
-    android:id="@+id/aMais"
+    android:id="@+id/aMais1"
     style="?android:attr/buttonStyleSmall"
     android:layout_width="@dimen/tam_aumenta_diminui"
     android:layout_height="@dimen/tam_aumenta_diminui"
@@ -43,13 +42,13 @@ tools:context="com.pergaminhos.appergarminho.Mecanismo">
     android:layout_alignParentStart="false"
     android:layout_alignParentTop="true"
     android:layout_gravity="end"
-    android:layout_toStartOf="@+id/aMenos"
+    android:layout_toStartOf="@+id/aMenos1"
     android:padding="@dimen/tam_bordaInt_aumenta_diminui"
     android:text="@string/aumenta"
     android:textColor="@color/hungria" />
 
 <Button
-    android:id="@+id/button12"
+    android:id="@+id/button15"
     style="@style/botaoCampo"
     android:layout_width="@dimen/tam_botao_lado"
     android:layout_height="@dimen/tam_botao_altura"
@@ -60,11 +59,11 @@ tools:context="com.pergaminhos.appergarminho.Mecanismo">
     android:textSize="@dimen/altTextButton" />
 
 <ScrollView
-    android:id="@+id/roll01"
+    android:id="@+id/roll02"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_above="@id/button12"
-    android:layout_below="@id/aMais"
+    android:layout_above="@id/button15"
+    android:layout_below="@id/aMais1"
     android:layout_marginTop="0dp">
 
     <TextView

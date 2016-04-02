@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pergaminhos.appergarminho.barrona">
+
+
+    <item
+        android:id="@+id/action_goleft"
+        android:icon="@drawable/ic_action_arrow_left"
+        android:orderInCategory="100"
+        android:title="@string/botaoGoleft"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_youtube"
+        android:icon="@drawable/ic_action_youtube"
+        android:orderInCategory="100"
+        android:title="@string/botaoYoutube"
+        app:showAsAction="always" />
+
+</menu>
+

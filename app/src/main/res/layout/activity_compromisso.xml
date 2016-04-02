@@ -59,10 +59,12 @@
         android:layout_marginTop="35dp"
         android:layout_toEndOf="@id/eu"
         android:background="@drawable/caixadecoleta"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Seu Nome"
         android:inputType="text"
-        android:text=" Seu Nome"
         android:textAlignment="gravity"
         android:textColor="@color/canada"
+        android:textColorHint="@color/canada"
         android:textSize="18sp"
         android:textStyle="bold|italic" />
     <TextView
@@ -91,6 +93,20 @@
         android:textSize="14sp"
         />
 
+    <TextView
+        android:id="@+id/aquio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/compromisso2"
+        android:layout_below="@id/compromisso2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="aqui ó"
+        android:textColor="@color/hungria"
+        android:textSize="14sp"
+        android:textStyle="italic" />
     <Button
         android:id="@+id/buttonAceitar"
         style="@style/botaoCampo"

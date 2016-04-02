@@ -27,24 +27,23 @@
         <item name="android:textColor">@color/pewter</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:textAlignment">gravity</item>
     </style>
     <style name="botao_r1">
         <item name="android:background">@drawable/rosto1</item>
         <item name="android:textColor">@color/pewter</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textAlignment">gravity</item>
     </style>
     <style name="botao_rm">
         <item name="android:background">@drawable/rosto_meio</item>
         <item name="android:textColor">@color/pewter</item>
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">9sp</item>
         <item name="android:textAlignment">gravity</item>
     </style>
     <style name="botao_r2">
         <item name="android:background">@drawable/rosto2</item>
         <item name="android:textColor">@color/pewter</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textAlignment">gravity</item>
     </style>
     </resources>

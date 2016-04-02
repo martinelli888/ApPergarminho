@@ -3,10 +3,36 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
          
-            <item name="colorPrimaryDark">@color/canada</item>
-            <item name="colorPrimary">@color/strawberry</item>
-            <item name="android:actionBarItemBackground">@color/strawberry</item>
-            <item name="colorAccent">@color/strawberry</item>
-            <item name="android:textColorPrimary">@color/mostarda</item>
+           
+        <item name="colorPrimaryDark">@color/canada</item>
+        <item name="colorPrimary">@color/strawberry</item>
+        <item name="android:actionBarItemBackground">@color/strawberry</item>
+           
+        <item name="colorAccent">@color/strawberry</item>
+        <item name="android:textColorPrimary">@color/mostarda</item>
     </style>
+
+
+    <style name="AppThemeNAB" parent="Theme.AppCompat.Light.NoActionBar">
+           
+        <item name="colorPrimaryDark">@color/canada</item>
+        <item name="colorPrimary">@color/strawberry</item>
+        <item name="android:actionBarItemBackground">@color/strawberry</item>
+           
+        <item name="colorAccent">@color/strawberry</item>
+        <item name="android:textColorPrimary">@color/mostarda</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/canada</item>
+        <item name="colorPrimaryDark">@color/strawberry</item>
+        <item name="colorAccent">@color/mostarda</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Theme.MyThemeBottom" parent="Theme.MyTheme">
+        <item name="colorPrimary">@android:color/white</item>
+
+    </style>
+
 </resources>

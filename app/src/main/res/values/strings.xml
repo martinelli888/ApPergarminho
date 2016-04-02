@@ -1,5 +1,5 @@
 <resources>
-        <string name="app_name">Os 10 Pergaminhos</string>
+    <string name="app_name">Pergaminhos</string>
         <string name="hello_world">Hello world!</string>
         <string name="Titulo001">@string/titulo1</string>
 
@@ -8,7 +8,38 @@
         <string name="action_settings">Configurações</string>
         <string name="menu">Menu</string>
         <string name="compartilhar">Compartilhar</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_bonus">Bonus</string>
 
+    <string name="mMenu">Menu</string>
+    <string name="mConfig">Configurações</string>
+    <string name="mSobre">Sobre</string>
+    <string name="mAvaliar">Avaliar</string>
+    <string name="mSair">Fechar</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_mecanismo">Os 10 Pergaminhos</string>
+
+
+    <string name="title_activity_servicos">Servicos</string>
+    <string name="title_activity_compromisso">compromisso</string>
+    <string name="title_activity_rosto">rosto</string>
+
+
+    <string name="Continuar">Continuar\nPergaminhos</string>
+    <string name="Config">Configurações</string>
+    <string name="Comecar">Nova\n Jornada</string>
+
+    <string name="Onde">Onde\nParei</string>
+    <string name="opcaoSim">Ler\nPergaminho</string>
+    <string name="opcaoNao">Menu</string>
+
+
+    <string name="jamais">O fracasso jamais me surpreenderá \nse minha decisão de vencer \nfor suficientemente forte"</string>
+
+    <string name="Aceito1">Aceito, quero INICIAR uma nova jornada.</string>
+    <string name="Aceito2">Aceito, quero CONTINUAR minha jornada.</string>
+    <string name="title_activity_config">config</string>
         <string name="convite1">
         Voce tem em mãos um valioso material baseado no livro "O maior Vendedor do Mundo" de OG Mandino.\n\n
         São 10 pergaminhos que se seguidos\n conforme as instruções MUDARÃO SUA VIDA.\n\n
@@ -67,6 +98,9 @@
     <string name="botaoP10">Orientai-me Senhor</string>
     <string name="botaoBonus"> * Bonus * </string>
     <string name="botaoP11">Voltar</string>
+    <string name="botaoYoutube">Ver no Youtube</string>
+    <string name="botaoGoleft">Voltar</string>
+    <string name="botaofechar">Fechar</string>
 
     <!--titulossimples-->
     <string name="titulo1">Pergaminho 1</string>
@@ -80,6 +114,12 @@
     <string name="titulo9">Pergaminho 9</string>
     <string name="titulo10">Pergaminho 10</string>
 
+    <!--avaliaçao-->
+    <string name="tituloDoAvaliar">Avalie o Pergaminho</string>
+    <string name="mensagemAvaliar">Esperamos que este aplicativo tenha lhe ajudado na sua jornada.\nGostaria de ajudar mais pessoas como vc? Avaliar este APP!</string>
+    <string name="msgPositivo">Avaliar Agora</string>
+    <string name="msgNegativo">Mais Tarde</string>
+    <string name="msgNeutro">Não Avaliar</string>
 
     <string name="pt1">Hoje mudo minha pele velha que sofreu, por muito tempo,
     as machucaduras do fracasso e os ferimentos da mediocridade.
@@ -390,12 +430,6 @@
     Orientai-me, Meu Senhor.</string>
 
 
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_mecanismo">Os 10 Pergaminhos</string>
-    <string name="title_activity_sobre">Sobre</string>
-    <string name="title_activity_bonus">Bonus</string>
-
-
     <string name="tituloBonus">Filosofia do Sucesso</string>
     <string name="textoBonus">
          Se você pensa que é um derrotado,\n
@@ -429,15 +463,5 @@
         \n
         \bNapoleon Hill
     </string>
-    <string name="title_activity_servicos">Servicos</string>
-        <string name="title_activity_compromisso">compromisso</string>
-        <string name="title_activity_rosto">rosto</string>
-        <string name="Continuar">Continuar\nos\nPergaminhos</string>
-        <string name="Config">Configurações</string>
-        <string name="Comecar">Começar\nNova\n Jornada</string>
-        <string name="jamais">O fracasso jamais me surpreenderá \nse minha decisão de vencer \nfor suficientemente forte"</string>
 
-    <string name="Aceito1">Aceito, quero INICIAR uma nova jornada.</string>
-    <string name="Aceito2">Aceito, Ja conheço os Pergaminhos e quero CONTINUAR minha jornada.</string>
-        <string name="title_activity_config">config</string>
     </resources>

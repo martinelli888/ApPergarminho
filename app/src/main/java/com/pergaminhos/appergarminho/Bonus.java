@@ -1,16 +1,53 @@
 package com.pergaminhos.appergarminho;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class Bonus extends AppCompatActivity {
+
+    @Bind(R.id.textoBonus)
+    TextView textoBonusB;
+
+    Integer TamanhoNewB = 14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bonus);
+        ButterKnife.bind(this);
+    }
+
+//    @OnClick(R.id.button15)
+//      public void volta(){
+//        finish();
+//    }
+//
+//    @OnClick(R.id.botaoP140)
+//        public void volta2(){
+//        finish();
+//    }
+
+
+    @OnClick(R.id.aMais1)
+    public void Sobe1() {
+        TamanhoNewB = TamanhoNewB + 1;
+        if (TamanhoNewB < 25)
+            textoBonusB.setTextSize(TamanhoNewB);
+    }
+
+    @OnClick(R.id.aMenos1)
+    public void Desce1() {
+        if (TamanhoNewB > 12)
+            TamanhoNewB = TamanhoNewB - 1;
+        textoBonusB.setTextSize(TamanhoNewB);
     }
 
     @Override
@@ -34,4 +71,6 @@ public class Bonus extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
