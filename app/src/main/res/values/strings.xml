@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Pergaminhos</string>
+    <string name="app_name">Pergaminhos v3</string>
         <string name="hello_world">Hello world!</string>
         <string name="Titulo001">@string/titulo1</string>
-
 
     <!--geral-->
         <string name="action_settings">Configurações</string>

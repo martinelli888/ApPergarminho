@@ -22,7 +22,6 @@ public class compromisso extends AppCompatActivity {
     EditText Nome;
     @Bind(R.id.aquio)
     TextView aquio;
-
     int Dia = 1;
     int Pergaminho = 1;
     Double dataInicial;

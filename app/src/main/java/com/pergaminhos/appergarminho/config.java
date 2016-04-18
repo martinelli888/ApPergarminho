@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputFilter;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.pergaminhos.appergarminho.Model.Gaivotas;
+import com.pergaminhos.appergarminho.Model.InputFilterMinMax;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -44,7 +46,8 @@ public class config extends AppCompatActivity {
         setContentView(R.layout.activity_config);
         ButterKnife.bind(this);
 
-
+    // esse metodo chama o banco de dados dentro da Classe Gaivotas e pega a UltimaGaivota usando Metodo BuscarUltimaGaivota
+        // isso se tiver alguma gaivota gravada.
         gaivotaBuscada = Gaivotas.BuscarUltimaGaivota();
         if (gaivotaBuscada != null) {
             NomeNovo.setText(gaivotaBuscada.getNomeAtual());
@@ -54,6 +57,7 @@ public class config extends AppCompatActivity {
         }
     }
 
+//Esse metodo calcula a diferença e em qual pergaminho a gaivotinha ta
 
     public String CalculaMensagem() {
 
@@ -152,24 +156,31 @@ public class config extends AppCompatActivity {
     public void volta() {
         finish();
     }
-
+// salva as informacoes atuais no Fernao Pai, que leva pra salvar na Gaivotas
     @OnClick(R.id.buttonSalvarN)
     public void salvar() {
         if (fernaoPai == null)
             fernaoPai = new Gaivotas();
         if (!TextUtils.isEmpty(NomeNovo.getText()))
             fernaoPai.setNomeAtual(NomeNovo.getText().toString());
+        //inseri a linha abaixo
+        PergaminhoNovo.setFilters(new InputFilter[]{new InputFilterMinMax("1", "10")});
+
+        // aqui implantei o codigo do Cesar , era assim o antigo
+//if (!TextUtils.isEmpty(PergaminhoNovo.getText()))
+//fernaoPai.setPergaminhoAtual(PergaminhoNovo.getText().toString())
 
         if (!TextUtils.isEmpty(PergaminhoNovo.getText()))
+            //PergaminhoNovo.setFilters(new InputFilter[]{new InputFilterMinMax("1", "10")});
             fernaoPai.setPergaminhoAtual(PergaminhoNovo.getText().toString());
-
+// terminei aqui
         if (!TextUtils.isEmpty(DataNovo.getText()))
             fernaoPai.setDataAtual(DataNovo.getText().toString());
 
         if (!TextUtils.isEmpty(InicioNovo.getText()))
             fernaoPai.setInicio(InicioNovo.getText().toString());
 
-        //Sprinkles vai salvar o usuario
+        //Sprinkles vai salvar o usuario editado como esta
         fernaoPai.save();
             /* Aqui, a ideia é fazer com que esse intent seja fechada e enviar um extra para
              * a activity que tem a lista de usuário dizendo que o usuário foi salvo com sucesso! */
