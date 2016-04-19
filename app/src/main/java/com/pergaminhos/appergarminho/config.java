@@ -12,7 +12,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.pergaminhos.appergarminho.Model.Gaivotas;
-import com.pergaminhos.appergarminho.Model.InputFilterMinMax;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
